@@ -1,0 +1,78 @@
+/*General*/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+/*Pink Nav Bar*/
+
+.top_nav {
+  background-color: #ffb4b0;
+  border: 2px solid black;
+  padding: 1em;
+  margin: 1.5em 5em 1em 5em;
+}
+
+/*Blue Nav Bar*/
+
+.left_bar {
+  background-color: #4dd7fa;
+  border: 2px solid black;
+  padding: 1em;
+  margin: 0 1em 0 5em;
+  width: 13%;
+  display: inline;
+  float: left;
+}
+
+/*Blue Bar Elements*/
+
+ul {
+  list-style-type: none;
+}
+
+.check_left {
+  display: inline;
+  float: left;
+  padding-left: 0;
+}
+
+.check_right {
+  display: inline;
+  float: left;
+  padding-left: 13px;
+}
+
+.filter {
+  text-align: center;
+  clear: both;
+}
+
+/*Yellow Box*/
+
+.yellow_block {
+  background-color: #fefac0;
+  border: 2px solid black;
+  padding: 0 1em 1.2em 1.5em;
+  margin: 0 5em 0 0;
+  width: 66.7%;
+  display: inline-block;
+  float: left;
+}
+
+/*Yellow Bow Elements*/
+
+.yellow_block h2 {
+  color: #785616;
+  font-weight: normal;
+}
+.yellow_block p {
+  color: black;
+  font-size: .9em;
+  line-height: .4em;
+}
