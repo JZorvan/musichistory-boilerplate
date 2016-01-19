@@ -1,7 +1,7 @@
 /*General*/
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -14,8 +14,9 @@ body {
 .top_nav {
   background-color: #ffb4b0;
   border: 2px solid black;
+  box-sizing: border-box;
   padding: 1em;
-  margin: 1.5em 5em 1em 5em;
+  margin: 1.5em .2em 1em 0;
 }
 
 /*Blue Nav Bar*/
@@ -23,9 +24,10 @@ body {
 .left_bar {
   background-color: #4dd7fa;
   border: 2px solid black;
+  box-sizing: border-box;
   padding: 1em;
-  margin: 0 1em 0 5em;
-  width: 13%;
+  margin-right: 1em;
+  width: 22%;
   display: inline;
   float: left;
 }
@@ -58,10 +60,10 @@ ul {
 .yellow_block {
   background-color: #fefac0;
   border: 2px solid black;
+  box-sizing: border-box;
   padding: 0 1em 1.2em 1.5em;
-  margin: 0 5em 0 0;
-  width: 66.7%;
-  display: inline-block;
+  width: 76%;
+  display: inline;
   float: left;
 }
 
