@@ -1,12 +1,14 @@
 /*General*/
-
-.container {
+/*
+#container {
   width: 80%;
   margin: 0 auto;
-}
+}*/
 
 body {
   font-family: 'Arial';
+  width: 80%;
+  margin: 0 auto;
 }
 
 /*Pink Nav Bar*/
@@ -16,7 +18,7 @@ body {
   border: 2px solid black;
   box-sizing: border-box;
   padding: 1em;
-  margin: 1.5em .2em 1em 0;
+  margin: 1.5em 0 1em 0;
 }
 
 /*Blue Nav Bar*/
@@ -28,7 +30,7 @@ body {
   padding: 1em;
   margin-right: 1em;
   width: 22%;
-  display: inline;
+  display: inline-b;
   float: left;
 }
 
@@ -63,7 +65,7 @@ ul {
   box-sizing: border-box;
   padding: 0 1em 1.2em 1.5em;
   width: 76%;
-  display: inline;
+  display: inline-block;
   float: left;
 }
 
