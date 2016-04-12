@@ -1,38 +1,35 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Music History</title>
+  <title>Music History | Version 2</title>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-<!-- <div id="container"> -->
+
 <!-- Pink Nav bar -->
 
   <div class="top_nav">
-    <a href="#">View Music</a> <b>|</b>
-    <a href="#">Add Music</a> <b>|</b>
-    <a href="#">Profile</a>
+    <a href="#" class="link">View Music</a> <b>|</b>
+    <a href="#" class="link">Add Music</a> <b>|</b>
+    <a href="#" class="link">Profile</a>
   </div>
 
 <!-- Left Blue Bar -->
-
+  <div id="container">
   <div class="left_bar">
 
   <!-- Song Length Slider -->
     <form class="slider">
     <label for="slider">Song length:</label>
-    <br>
     <input type="range">
     </form>
-    <br>
 
   <!-- Artist Select Box -->
     <form class="artist">
     <label for="artist">Artist:</label>
-    <br>
     <select name="artist">
       <option value="wet_cats">The Wet Cats</option>
       <option value="pickle_shots">Pickles Shots in June</option>
@@ -41,12 +38,10 @@
       <option value="sound_fury">The Sound and the Furry</option>
     </select>
     </form>
-    <br>
 
     <!-- Album Select Box -->
     <form class="album">
     <label for="album">Album:</label>
-    <br>
     <select name="album">
       <option for="cheeto_fingers">Cheeto Fingers</option>
       <option for="one_too_many">One Too Many</option>
@@ -55,42 +50,46 @@
       <option for="onion_rings">Onion Rings</option>
     </select>
     </form>
-    <br>
 
     <!-- Genre Checkboxes -->
-    <form class="genre">
+    <form>
     <label for="genre">Genre:</label>
-    <br>
-      <ul class="check_left">
+      <div class="checkbox-container">
+      <ul>
+      <section class="checkbox-left">
       <li><input type="checkbox" name="genre" value="rock">Rock</li>
       <li><input type="checkbox" name="genre" value="pop">Pop</li>
       <li><input type="checkbox" name="genre" value="blues">Blues</li>
+      </section>
       </ul>
-      <ul class="check_right">
+      <ul>
+      <section class="checkbox-right">
       <li><input type="checkbox" name="genre" value="classical">Classical</li>
       <li><input type="checkbox" name="genre" value="jazz">Jazz</li>
       <li><input type="checkbox" name="genre" value="hip_hop">Hip Hop</li>
+      </section>
       </ul>
-      </form>
+      </div>
+    </form>
 
   <!-- Filter Button -->
-    <form class="filter">
-      <input type="submit" name="filter" value="Filter">
-    </form>
+    <button class="filter">Filter</button>
   </div>
 
 <!-- Right Yellow Box -->
-  <div class="yellow_block">
-    <h2>Song Name</h2>
+  <div id="yellow_block">
+
+
+<!--     <h2>Song Name</h2>
     <p>Artist Name | Album Name | Genre</p>
     <h2>Song Name</h2>
     <p>Artist Name | Album Name | Genre</p>
     <h2>Song Name</h2>
     <p>Artist Name | Album Name | Genre</p>
     <h2>Song Name</h2>
-    <p>Artist Name | Album Name | Genre</p>
+    <p>Artist Name | Album Name | Genre</p> -->
   </div>
-<!-- Check to see if any of these breaks are completely useless -->
-<!-- </div> -->
+  </div>
+<script type="text/javascript" src="songs.js"></script>
 </body>
 </html>
