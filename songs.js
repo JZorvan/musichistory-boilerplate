@@ -1,6 +1,5 @@
 "use strict";
 //Variables
-var yellowBlock = document.getElementById("yellow_block");
 
 // Provided array for exercise
 var songs = [];
@@ -37,6 +36,7 @@ function charReplacer(array, oldChar, newChar) {
 // Injects the song array into the DOM
 function PushToDOM (array) {
   let buildString = '';
+  let yellowBlock = document.getElementById("yellow_block");
   for (let i = 0; i < array.length; i++) {
     buildString = `<h2>${array[i]}</h2>`;
     yellowBlock.innerHTML += buildString;

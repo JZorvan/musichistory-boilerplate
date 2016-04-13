@@ -93,7 +93,7 @@ li {
   width: 80%;
 }
 
-/*Yellow Bow Elements*/
+/*Yellow Box Elements*/
 
 #yellow_block h2 {
   color: #785616;
@@ -103,4 +103,28 @@ li {
   color: black;
   font-size: .9em;
   line-height: .4em;
+}
+
+/*Purple Box*/
+
+#purple_block {
+  display: flex;
+  width: 100%;
+  background-color: #FF9BFF;
+  border: 2px solid #3D263E;
+  justify-content: center;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+#purple_block fieldset{
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+
+#add {
+  padding: .3em .5em;
+  margin: 1em auto;
+  font-size: 1.2em;
 }
