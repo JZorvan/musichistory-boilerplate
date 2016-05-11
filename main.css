@@ -30,7 +30,7 @@ body {
 
 /*Blue Nav Bar*/
 
-.left_bar {
+#left_bar {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -108,6 +108,7 @@ li {
 /*Purple Box*/
 
 #purple_block {
+  display: none;
   display: flex;
   width: 100%;
   background-color: #FF9BFF;
@@ -123,7 +124,7 @@ li {
   line-height: 2em;
 }
 
-#add {
+#add_button {
   padding: .3em .5em;
   margin: 1em auto;
   font-size: 1.2em;

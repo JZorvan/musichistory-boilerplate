@@ -12,14 +12,20 @@
 <!-- Pink Nav bar -->
 
   <div class="top_nav">
-    <a href="index.html" class="link">List Music</a> <b>|</b>
-    <a href="add.html" class="link">Add Music</a> <b>|</b>
-    <a href="#" class="link">Profile</a>
+    <a class="btn link" id="list_music_view" href="#"
+          <span class="btn__text">List Music</span>
+    </a>
+    <a class="btn link" id="add_music_view" href="#"
+      <span class="btn__text">Add Music </span>
+    </a>
+    <a class="btn link" id="profile_view" href="#"
+      <span class="btn__text">Profile </span>
+    </a>
   </div>
 
 <!-- Left Blue Bar -->
   <div id="container">
-  <div class="left_bar">
+    <div id='left_bar'>
 
   <!-- Song Length Slider -->
     <form class="slider">
@@ -79,17 +85,24 @@
 <!-- Right Yellow Box -->
   <div id="yellow_block">
 
+  </div>
 
-<!--     <h2>Song Name</h2>
-    <p>Artist Name | Album Name | Genre</p>
-    <h2>Song Name</h2>
-    <p>Artist Name | Album Name | Genre</p>
-    <h2>Song Name</h2>
-    <p>Artist Name | Album Name | Genre</p>
-    <h2>Song Name</h2>
-    <p>Artist Name | Album Name | Genre</p> -->
+  <!-- Add Music View -->
+  <div id="purple_block">
+    <fieldset>
+      <legend>Add a Song:</legend>
+      <label for="title">Title:</label>
+      <input type="text" id="title" size="40" maxlength="100">
+      <label for="artist">Artist:</label>
+      <input type="text" id="artist" size="40" maxlength="100">
+      <label for="album">Album:</label>
+      <input type="text" id="album" size="40" maxlength="100">
+      <button id="add_btn">Add</button>
+    </fieldset>
+
   </div>
   </div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="songs.js"></script>
 </body>
 </html>
