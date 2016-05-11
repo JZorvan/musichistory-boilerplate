@@ -52,8 +52,6 @@ $(document).ready(function() {
     $('#purple_block').show();
     $('#left_bar').hide();
     $('#yellow_block').hide();
-    // $('#yellow_block').empty();
-
   });
 
   // When List Music button is clicked, those blocks are shown, other is hidden
@@ -61,7 +59,6 @@ $(document).ready(function() {
     $('#purple_block').hide();
     $('#left_bar').show();
     $('#yellow_block').show();
-
   });
 
   // Gets info from Add Music Form and puts that into the array
