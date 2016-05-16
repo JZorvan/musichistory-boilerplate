@@ -1,0 +1,21 @@
+{
+  "name": "musichistory-boilerplate",
+  "homepage": "https://github.com/JZorvan/musichistory-boilerplate",
+  "authors": [
+    "Janelle Zorvan <jzorvan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}

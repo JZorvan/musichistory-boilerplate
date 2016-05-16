@@ -1,0 +1,64 @@
+{
+  "music": {
+    "jeepster": {
+      "title": "Jeepster",
+      "artist": "T. Rex",
+      "album": "Electric Warrior"
+    },
+    "getiton": {
+      "title": "Get It On",
+      "artist": "T. Rex",
+      "album": "Electric Warrior"
+    },
+    "gimme": {
+      "title": "Gimme All Your Lovin",
+      "artist": "ZZ Top",
+      "album": "Eliminator"
+    },
+    "sharp": {
+      "title": "Sharp Dressed Man",
+      "artist": "ZZ Top",
+      "album": "Eliminator"
+    },
+    "legs": {
+      "title": "Legs",
+      "artist": "ZZ Top",
+      "album": "Eliminator"
+    },
+    "tush": {
+      "title": "Tush",
+      "artist": "ZZ Top",
+      "album": "Fandango!"
+    },
+    "fastcar": {
+      "title": "Fast Car",
+      "artist": "Tracy Chapman",
+      "album": "Tracy Chapman"
+    },
+    "kissthis": {
+      "title": "Kiss This",
+      "artist": "The Struts",
+      "album": "Everybody Wants"
+    },
+    "couldhave": {
+      "title": "Could Have Been Me",
+      "artist": "The Struts",
+      "album": "Everybody Wants"
+    },
+    "smile": {
+      "title": "Make You Smile",
+      "artist": "Elle King",
+      "album": "Love Stuff"
+    },
+    "kocaine": {
+      "title": "Kocaine Karolina",
+      "artist": "Elle King",
+      "album": "Love Stuff"
+    },
+    "castle": {
+      "title": "Castle",
+      "artist": "Halsey",
+      "album": "Badlands"
+    }
+  }
+}
